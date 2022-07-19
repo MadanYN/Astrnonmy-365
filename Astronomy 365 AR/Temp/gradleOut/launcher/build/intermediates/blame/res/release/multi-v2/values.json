@@ -1,0 +1,96 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\hp\\Desktop\\AR_Projects\\Astrnonmy-Image-of-the-day-AR\\Astronomy 365 AR\\Temp\\gradleOut\\launcher\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\hp\\Desktop\\AR_Projects\\Astrnonmy-Image-of-the-day-AR\\Astronomy 365 AR\\Temp\\gradleOut\\launcher\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "5,2,7",
+                        "startColumns": "0,0,0",
+                        "startOffsets": "190,53,288",
+                        "endLines": "6,4,10",
+                        "endColumns": "8,8,8",
+                        "endOffsets": "286,188,513"
+                    },
+                    "to": {
+                        "startLines": "11,13,16",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "749,849,987",
+                        "endLines": "12,15,19",
+                        "endColumns": "8,8,8",
+                        "endOffsets": "844,982,1209"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\hp\\Desktop\\AR_Projects\\Astrnonmy-Image-of-the-day-AR\\Astronomy 365 AR\\Temp\\gradleOut\\launcher\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "2,2",
+                        "startOffsets": "55,108",
+                        "endColumns": "51,65",
+                        "endOffsets": "104,171"
+                    },
+                    "to": {
+                        "startLines": "8,9",
+                        "startColumns": "4,4",
+                        "startOffsets": "547,601",
+                        "endColumns": "53,67",
+                        "endOffsets": "596,664"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-2\\files-2.1\\1afc5a247ba5ad304b1ec73b0bb872bd\\VuforiaEngine\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "79",
+                        "endOffsets": "130"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "669",
+                        "endColumns": "79",
+                        "endOffsets": "744"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-2\\files-2.1\\16e84a82246e39f10f24b4734dc13f8e\\core-1.22.0\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "161,208,259,381,503",
+                        "endColumns": "46,50,121,121,83",
+                        "endOffsets": "207,258,380,502,586"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "101,152,207,333,459",
+                        "endColumns": "50,54,125,125,87",
+                        "endOffsets": "147,202,328,454,542"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\hp\\Desktop\\AR_Projects\\Astrnonmy-Image-of-the-day-AR\\Astronomy 365 AR\\Temp\\gradleOut\\launcher\\src\\main\\res\\values\\ids.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "46",
+                        "endOffsets": "97"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "45",
+                        "endOffsets": "96"
+                    }
+                }
+            ]
+        }
+    ]
+}

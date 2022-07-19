@@ -1,0 +1,4 @@
+#Tue Jul 19 19:58:53 IST 2022
+base.0=C\:\\Users\\hp\\Desktop\\AR_Projects\\Astrnonmy-Image-of-the-day-AR\\Astronomy 365 AR\\Temp\\gradleOut\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
