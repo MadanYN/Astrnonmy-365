@@ -15,7 +15,7 @@ public class NASAimage : MonoBehaviour
     private Text explanation;
     private Text title;
     private Text date;
-    private Renderer rend;
+    private RawImage image;
 
     private string webData;
     private JsonData json;
@@ -26,9 +26,10 @@ public class NASAimage : MonoBehaviour
     {
         title = GameObject.Find("title").GetComponent<Text>();
         date = GameObject.Find("date").GetComponent<Text>();
-        explanation = GameObject.Find("explanation").GetComponent<Text>();
-        rend = GameObject.Find("image").GetComponent<Renderer>();
-        GameObject.Find("Button").GetComponent<Button>().onClick.AddListener(getData);
+        explanation = GameObject.Find("ExplanationText").GetComponent<Text>();
+        image = GameObject.Find("RawImage").GetComponent<RawImage>();
+        //GameObject.Find("Button").GetComponent<Button>().onClick.AddListener(getData);
+        getData();
     }
 
     void getData() => StartCoroutine(OnResponse());
@@ -43,7 +44,6 @@ public class NASAimage : MonoBehaviour
         json = JsonMapper.ToObject(webData);
 
         results();
-
         
     }
   
@@ -67,6 +67,6 @@ public class NASAimage : MonoBehaviour
         WWW imageLoad = new WWW(url);
         yield return imageLoad;
 
-        rend.material.mainTexture = imageLoad.texture;
+        image.texture = imageLoad.texture;
     }
 }
